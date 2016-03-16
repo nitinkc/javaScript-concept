@@ -17,7 +17,7 @@ function greet(firstname, lastname, language) {
     console.log(firstname);
     console.log(lastname);
     console.log(language);
-    console.log(arguments);//like this, argument is available
+    console.log(arguments);//like 'this', argument is also available
     console.log('arg 0: ' + arguments[0]);
     console.log('-------------');
     

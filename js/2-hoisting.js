@@ -1,6 +1,6 @@
 b();/* Since the function already exist in memory (creation phase) thus it can access the function!!*/
 
-console.log(a); // Undefined
+console.log(a); // Undefined as a is declared somewhere
 /*undefined, as the variable during creation phase gets the memory with vaue undefined. It is during
 execution that value gets assigned. It gives an error (ReferenceError- not defined) if you do not declare the varaible. If you declare the variable anywhere, you can access after thje declaration nornally or before declaration you will get undefined*/
 

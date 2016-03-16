@@ -1,4 +1,4 @@
-/* All primitives are by value adn all Objects are by reference */
+/* All primitives are by value and all Objects are by reference */
 
 // by value (primitives)
 var a = 3;
